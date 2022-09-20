@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      host:
+      port:
+      authentication-database:
+      database:
+      username:
+      password:
+      field-naming-strategy: org.springframework.data.mapping.model.SnakeCaseFieldNamingStrategy
