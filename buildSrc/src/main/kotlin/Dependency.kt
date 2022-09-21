@@ -11,6 +11,7 @@ object Dependency {
         val WEBSOCKET by lazy { "org.springframework.boot:spring-boot-starter-websocket:${Version.SPRING_BOOT}" }
         val WEBSOCKET_SECURITY_MESSAGING by lazy {"org.springframework.security:spring-security-messaging:${Version.SPRING_BOOT_STABLE}"}
         val GRAPHQL by lazy { "org.springframework.boot:spring-boot-starter-graphql:${Version.SPRING_BOOT}" }
+        val VALIDATION by lazy { "org.springframework.boot:spring-boot-starter-validation:${Version.SPRING_BOOT}" }
         val DEVTOOLS by lazy { "org.springframework.boot:spring-boot-devtools:${Version.SPRING_BOOT}" }
         val AUTOCONFIGURE by lazy { "org.springframework.boot:spring-boot-autoconfigure:${Version.SPRING_BOOT}" }
         val CONFIGURATION_PROCESSOR by lazy { "org.springframework.boot:spring-boot-configuration-processor:${Version.SPRING_BOOT}" }

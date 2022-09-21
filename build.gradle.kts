@@ -45,6 +45,7 @@ subprojects {
     dependencies {
         implementation(Dependency.Kotlin.REFLECT)
         implementation(Dependency.Kotlin.STDLIB)
+        implementation(Dependency.Spring.VALIDATION)
 
         testImplementation(Dependency.Spring.TEST)
     }
