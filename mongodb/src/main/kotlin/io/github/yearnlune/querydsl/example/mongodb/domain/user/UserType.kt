@@ -1,4 +1,6 @@
-package io.github.yearnlune.querydsl.example.mongodb.domain.type
+package io.github.yearnlune.querydsl.example.mongodb.domain.user
+
+import io.github.yearnlune.querydsl.example.mongodb.domain.type.EnumCompanion
 
 enum class UserType(
     val value: String

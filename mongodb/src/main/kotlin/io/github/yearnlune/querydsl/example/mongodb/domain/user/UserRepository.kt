@@ -1,7 +1,5 @@
-package io.github.yearnlune.querydsl.example.mongodb.domain.repository
+package io.github.yearnlune.querydsl.example.mongodb.domain.user
 
-import io.github.yearnlune.querydsl.example.mongodb.domain.entity.User
-import io.github.yearnlune.querydsl.example.mongodb.domain.repository.custom.UserCustomRepository
 import org.springframework.data.mongodb.repository.MongoRepository
 import org.springframework.data.querydsl.QuerydslPredicateExecutor
 

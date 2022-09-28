@@ -1,6 +1,6 @@
 package io.github.yearnlune.querydsl.example.mongodb.converter
 
-import io.github.yearnlune.querydsl.example.mongodb.domain.type.UserType
+import io.github.yearnlune.querydsl.example.mongodb.domain.user.UserType
 import org.springframework.data.convert.PropertyValueConverter
 import org.springframework.data.mongodb.core.convert.MongoConversionContext
 

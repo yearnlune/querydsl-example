@@ -1,9 +1,7 @@
-package io.github.yearnlune.querydsl.example.mongodb.domain.entity
+package io.github.yearnlune.querydsl.example.mongodb.domain.user
 
 import com.querydsl.core.annotations.QueryEntity
 import io.github.yearnlune.querydsl.example.mongodb.converter.UserTypeConverter
-import io.github.yearnlune.querydsl.example.mongodb.domain.dto.UserDTO
-import io.github.yearnlune.querydsl.example.mongodb.domain.type.UserType
 import org.bson.types.ObjectId
 import org.springframework.data.annotation.Id
 import org.springframework.data.convert.ValueConverter

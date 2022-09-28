@@ -1,7 +1,7 @@
 package io.github.yearnlune.querydsl.example.mongodb.controller
 
-import io.github.yearnlune.querydsl.example.mongodb.domain.dto.UserDTO
-import io.github.yearnlune.querydsl.example.mongodb.domain.entity.User
+import io.github.yearnlune.querydsl.example.mongodb.domain.user.UserDTO
+import io.github.yearnlune.querydsl.example.mongodb.domain.user.User
 import io.github.yearnlune.querydsl.example.mongodb.service.UserService
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity

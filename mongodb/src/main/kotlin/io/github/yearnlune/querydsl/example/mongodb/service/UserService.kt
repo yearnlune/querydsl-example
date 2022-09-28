@@ -1,9 +1,9 @@
 package io.github.yearnlune.querydsl.example.mongodb.service
 
-import io.github.yearnlune.querydsl.example.mongodb.domain.dto.UserDTO
+import io.github.yearnlune.querydsl.example.mongodb.domain.user.UserDTO
 import io.github.yearnlune.querydsl.example.mongodb.domain.entity.QUser
-import io.github.yearnlune.querydsl.example.mongodb.domain.entity.User
-import io.github.yearnlune.querydsl.example.mongodb.domain.repository.UserRepository
+import io.github.yearnlune.querydsl.example.mongodb.domain.user.User
+import io.github.yearnlune.querydsl.example.mongodb.domain.user.UserRepository
 import org.springframework.stereotype.Service
 
 @Service
